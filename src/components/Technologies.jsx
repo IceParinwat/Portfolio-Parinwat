@@ -46,7 +46,7 @@ export default function Technologies() {
           <TiHtml5 className="text-7xl text-orange-500" />
         </motion.div>
         <motion.div
-          variants={iconVariants(2.5)}
+          variants={iconVariants(3)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
@@ -54,7 +54,7 @@ export default function Technologies() {
           <DiCss3 className="text-7xl text-blue-500" />
         </motion.div>
         <motion.div
-          variants={iconVariants(3)}
+          variants={iconVariants(4)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
@@ -62,7 +62,7 @@ export default function Technologies() {
           <IoLogoJavascript className="text-7xl text-yellow-400" />
         </motion.div>
         <motion.div
-          variants={iconVariants(3)}
+          variants={iconVariants(5)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
@@ -70,7 +70,7 @@ export default function Technologies() {
           <FaBootstrap className="text-7xl text-purple-500" />
         </motion.div>
         <motion.div
-          variants={iconVariants(3)}
+          variants={iconVariants(2)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
@@ -78,7 +78,7 @@ export default function Technologies() {
           <RiTailwindCssFill className="text-7xl text-cyan-400" />
         </motion.div>
         <motion.div
-          variants={iconVariants(4)}
+          variants={iconVariants(3)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
@@ -86,7 +86,7 @@ export default function Technologies() {
           <IoLogoPython className="text-7xl text-yellow-400" />
         </motion.div>
         <motion.div
-          variants={iconVariants(5)}
+          variants={iconVariants(4)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
@@ -94,7 +94,7 @@ export default function Technologies() {
           <RiReactjsLine className="text-7xl text-cyan-400" />
         </motion.div>
         <motion.div
-          variants={iconVariants(6)}
+          variants={iconVariants(5)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
@@ -102,7 +102,7 @@ export default function Technologies() {
           <SiExpress className="text-7xl" />
         </motion.div>
         <motion.div
-          variants={iconVariants(5)}
+          variants={iconVariants(2)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
@@ -110,7 +110,7 @@ export default function Technologies() {
           <SiMysql className="text-7xl text-yellow-400" />
         </motion.div>
         <motion.div
-          variants={iconVariants(4)}
+          variants={iconVariants(3)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
@@ -118,7 +118,7 @@ export default function Technologies() {
           <SiMongodb className="text-7xl text-green-500" />
         </motion.div>
         <motion.div
-          variants={iconVariants(3)}
+          variants={iconVariants(4)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
@@ -126,7 +126,7 @@ export default function Technologies() {
           <FaNodeJs className="text-7xl text-green-500" />
         </motion.div>
         <motion.div
-          variants={iconVariants(2)}
+          variants={iconVariants(5)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
