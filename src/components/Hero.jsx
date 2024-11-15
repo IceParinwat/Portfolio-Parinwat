@@ -14,7 +14,10 @@ const container = (delay) => ({
 
 export default function Hero() {
   return (
-    <div className="border-b border-neutral-900 pb-4 lg:mb-36">
+    <section
+      id="hero"
+      className="border-b border-neutral-900 pb-4 lg:mb-36 mt-10 lg:mt-0"
+    >
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2">
           <div className="flex flex-col items-center lg:items-start">
@@ -22,7 +25,7 @@ export default function Hero() {
               variants={container(0)}
               initial="hidden"
               animate="visible"
-              className="pb-16 text-2xl lg:text-3xl lg:mt-16"
+              className="pb-16 text-xl lg:text-3xl lg:mt-16"
             >
               <TypeAnimation
                 sequence={["Ice Parinwat", 1000, "Web Developer", 1000]}
@@ -63,6 +66,6 @@ export default function Hero() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

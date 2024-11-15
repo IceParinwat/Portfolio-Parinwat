@@ -14,12 +14,14 @@ export default function Home() {
       </div>
       <div className="container mx-auto px-8">
         <Navbar />
-        <Hero />
-        <About />
-        <Technologies />
-        <Experience />
-        <Project />
-        <Contact />
+        <div className="pt-16">
+          <Hero />
+          <About />
+          <Technologies />
+          <Experience />
+          <Project />
+          <Contact />
+        </div>
       </div>
     </div>
   );

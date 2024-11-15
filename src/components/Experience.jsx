@@ -3,7 +3,7 @@ import { motion } from "motion/react";
 
 export default function Experience() {
   return (
-    <div className="border-b border-neutral-900">
+    <section id="experience" className="border-b border-neutral-900">
       <motion.h1
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
@@ -45,6 +45,6 @@ export default function Experience() {
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 }

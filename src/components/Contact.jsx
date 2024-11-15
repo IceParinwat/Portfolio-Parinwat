@@ -1,10 +1,13 @@
 import { Link } from "react-router-dom";
 import { CONTACT } from "../constants";
 import { motion } from "motion/react";
+import { FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { FaFacebookSquare } from "react-icons/fa";
 
 export default function Contact() {
   return (
-    <div className="border-b border-neutral-900 pb-20">
+    <section id="contact" className="border-b border-neutral-900 pb-20">
       <motion.h1
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
@@ -34,6 +37,20 @@ export default function Contact() {
           {CONTACT.email}
         </Link>
       </div>
-    </div>
+      <div className="m-8 flex items-center justify-center gap-4 text-2xl">
+        <a
+          href="https://www.linkedin.com/in/parinwat-kiatthitipon-41b54b299/"
+          target="_blank"
+        >
+          <FaLinkedin />
+        </a>
+        <a href="https://github.com/IceParinwat" target="_blank">
+          <FaGithub />
+        </a>
+        <a href="https://www.facebook.com/iceparinwat/" target="_blank">
+          <FaFacebookSquare />
+        </a>
+      </div>
+    </section>
   );
 }
